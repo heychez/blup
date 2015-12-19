@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'junction';
+    src: url('../font/junction-regular-webfont.eot');
+    src: url('../font/junction-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/junction-regular-webfont.woff2') format('woff2'),
+         url('../font/junction-regular-webfont.woff') format('woff'),
+         url('../font/junction-regular-webfont.ttf') format('truetype'),
+         url('../font/junction-regular-webfont.svg#junctionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bariol';
+    src: url('../font/bariol_regular-webfont.eot');
+    src: url('../font/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bariol_regular-webfont.woff2') format('woff2'),
+         url('../font/bariol_regular-webfont.woff') format('woff'),
+         url('../font/bariol_regular-webfont.ttf') format('truetype'),
+         url('../font/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'madras';
+    src: url('../font/MadrasExtraLight.eot');
+    src: url('../font/MadrasExtraLight#iefix') format('embedded-opentype'),
+         url('../font/MadrasExtraLight.woff2') format('woff2'),
+         url('../font/MadrasExtraLight.woff') format('woff'),
+         url('../font/MadrasExtraLight.ttf') format('truetype'),
+         url('../font/MadrasExtraLight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bakersfield';
+    src: url('../font/bakersfield-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'monitorica';
+    src: url('../font/Monitorica-Rg.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'kaushan';
+    src: url('../font/kaushan.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'liquido';
+  src: url('../font/LIQUIDO-Fluid.eot');
+  src: url('../font/LIQUIDO-Fluid.eot?#iefix') format('embedded-opentype'),
+       url('../font/LIQUIDO-Fluid.woff2') format('woff2'),
+       url('../font/LIQUIDO-Fluid.woff') format('woff'),
+       url('../font/LIQUIDO-Fluid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'slot';
+  src: url('../font/Slot-Regular.eot');
+  src: url('../font/Slot-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/Slot-Regular.woff2') format('woff2'),
+       url('../font/Slot-Regular.woff') format('woff'),
+       url('../font/Slot-Regular.ttf') format('truetype'),
+       url('../font/Slot-Regular.svg#Slot-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'freschezza';
+    src: url('../font/freschezza-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'kelsonsans';
+  src: url('../font/KelsonSans-Regular.eot');
+  src: url('../font/KelsonSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/KelsonSans-Regular.woff2') format('woff2'),
+       url('../font/KelsonSans-Regular.woff') format('woff'),
+       url('../font/KelsonSans-Regular.ttf') format('truetype'),
+       url('../font/KelsonSans-Regular.svg#KelsonSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {margin: 0px; padding: 0px;}
+
+.main {
+	height: 720px;
+}
+.logo {
+	align-items: center;
+	height: 420px;
+    font-family: 'bariol';
+	font-size: 200px;
+	color: #333;
+	text-align: center;
+}
+#canvas-bubbles {
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+
+.work-title {
+	background-color: #333;
+	color: #fff;
+	font-family: 'slot';
+	text-align: center;
+	font-size: 100px;
+}
+.work-body {
+	background-color: #333;
+	height: 600px;
+}
+
+#canvas-waves {
+	width: 100%;
+	height: 30px;
+	display: block;
+	background-color: #333;
+}
+.info-body .col{
+	padding: 7px;
+	background-color: #CCC;
+	color: #555;
+	font-family: 'kelsonsans';
+	font-size: 14px;
+	text-align: center;
+}
+.info-body a{
+	color: #555;
+	text-decoration: none;
+}
+.info-body a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.info-body .author {
+	text-align: right;
+}
+.author-email:hover{
+	color: #fff;
+}
