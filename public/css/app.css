@@ -139,3 +139,10 @@ html, body {margin: 0px; padding: 0px;}
 .author-email:hover{
 	color: #fff;
 }
+
+.footer-logos {
+  text-align: left !important;
+}
+.footer-logos img {
+  width: 70px;
+}

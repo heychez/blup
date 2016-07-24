@@ -1,0 +1,6 @@
+{
+	"uid": "blup",
+    "append": true,
+    "watch": true,
+    "script": "app.js"
+ }
