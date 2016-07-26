@@ -8,7 +8,7 @@ app.use(logger('dev'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use('/public', express.static('public'));
+app.use('/assets', express.static('assets'));
 
 app.get('/', function(req, res){
     res.render('home');
