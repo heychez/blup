@@ -1,0 +1,4 @@
+/root/.nvm/versions/node/v6.9.1/bin/npm install
+/root/.nvm/versions/node/v6.9.1/bin/npm run bower-install
+/root/.nvm/versions/node/v6.9.1/bin/pod stop blup
+/root/.nvm/versions/node/v6.9.1/bin/pod start blup
