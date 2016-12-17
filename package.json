@@ -4,8 +4,7 @@
   "description": "blup.space",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "bower-install": "bower install --allow-root"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,0 @@
-npm install
-npm run bower-install
-pod stop blup
-pod start blup
